@@ -2,3 +2,108 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.main-nav {
+    overflow: auto;
+    float: left;
+    background-color: darkgrey;
+    width: 100%;
+    padding: 10px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 4px 6px;
+    font-size: 20px;
+}
+
+.search {
+    float: right;
+}
+
+.title-container {
+    padding: 1em;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content-container {
+    width: 95%;
+}
+
+#title {
+    font-size: 40px;
+}
+
+#tagline {
+    font-size: 30px;
+}
+
+
+/* Media Query */
+/* The below properties apply outside of the min-width*/
+
+@media (min-width: 769px){
+
+    .row {
+        display: flex;
+    }
+    
+    .col-1-of-4 {
+        width: 50%; 
+    }
+
+    .col-2-of-4 {
+        width: 50%;
+    } 
+
+    /* #text-photo {
+        padding: 10px;
+        height: 300px;
+        width: 250px; */
+    }
+    
+    /* #pizza-text-photo {
+        height: 250px;
+        width: 275px;
+        padding: 10px;
+    }
+    
+    .main-footer {
+        text-align: center; */
+    }
+
+   /* .col-1 {
+        display: inline-block;
+        width: 33%;
+        margin: -4px;
+        vertical-align: top;
+        padding: 1.5em;;
+        background: mediumaquamarine;
+        border: 1px solid black;          
+    }
+
+    .col-2 {
+        display: inline-block;
+        width: 33%;
+        margin: -4px;
+        vertical-align: top;
+        padding: 1.5em;
+        background:mediumaquamarine;          
+    }
+
+    .col-3 {
+        display: inline-block;
+        width: 33%;
+        margin: -4px;
+        vertical-align: top;
+        padding: 1.5em;
+        background: mediumaquamarine;          
+    } */
+
+}
